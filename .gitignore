@@ -1,5 +1,11 @@
-/db
-/incremental_db
+db/
+*/db/
+output_files/
+*/output_files/
+incremental_db/
+*/incremental_db/
+simulation/
+*/simulation/
 *.asm.rpt
 *.done
 *.fit
