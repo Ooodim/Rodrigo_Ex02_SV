@@ -1,8 +1,8 @@
 module Quest1 (input logic swap,
-					input logic enable,
-					input logic clock,
-					output logic[3:0] upcount,
-					output logic[3:0] downcount);
+				input logic enable,
+				input logic clock,
+				output logic[3:0] upcount,
+				output logic[3:0] downcount);
 
 always_ff @(posedge clock)
 	if (enable)
